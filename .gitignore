@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+# generated at runtime - predictions, summaries, caches, figures
+pipa/runs/
+pipa/exports/
+pipa/figures/
+# synthetic corpus, regenerate with pipa_dataset/scripts/make_synthetic.py
+pipa_dataset/annotated/
+pipa_dataset/production/
